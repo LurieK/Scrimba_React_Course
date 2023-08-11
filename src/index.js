@@ -17,7 +17,7 @@ function List(){
     <h1>Why I'm excited to learn React!</h1>
       <ol>
         <li>It allows me to build cool things</li>
-        <li>It is imparative</li>
+        <li>It is imperative</li>
       </ol>
     </div>
   )
