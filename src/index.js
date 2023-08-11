@@ -21,11 +21,19 @@ function Page() {
         <li>It allows me to build cool things</li>
         <li>It is imparative</li>
       </ol>
-      <footer>
-        <small>© 2023 Kimmerle development. All rights reserved.</small>
-      </footer>
+      <Footer/>
     </div>
   );
+}
+
+
+function Footer (){
+  return (
+    <footer>
+      <small>© 2023 Kimmerle development. All rights reserved.</small>
+  </footer>
+
+  )
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(<Page />);
