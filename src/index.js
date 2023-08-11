@@ -14,7 +14,9 @@ function Page() {
         <li>reason 1</li>
         <li>reason 2</li>
       </ol>
-      <footer>© 2023 Kimmerle development. All rights reserved.</footer>
+      <footer>
+        <small>© 2023 Kimmerle development. All rights reserved.</small>
+      </footer>
     </div>
   );
 }
