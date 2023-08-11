@@ -24,15 +24,7 @@ function List(){
 
 }
 
-function Page() {
-  return (
-    <div>
-      <Header/>
-      <List/>
-      <Footer/>
-    </div>
-  );
-}
+
 
 
 function Footer (){
@@ -42,6 +34,16 @@ function Footer (){
   </footer>
 
   )
+}
+
+function Page() {
+  return (
+    <div>
+      <Header/>
+      <List/>
+      <Footer/>
+    </div>
+  );
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(<Page />);
