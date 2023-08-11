@@ -11,16 +11,24 @@ function Header(){
 
 }
 
+function List(){
+  return (
+    <div>
+    <h1>Why I'm excited to learn React!</h1>
+      <ol>
+        <li>It allows me to build cool things</li>
+        <li>It is imparative</li>
+      </ol>
+    </div>
+  )
+
+}
 
 function Page() {
   return (
     <div>
       <Header/>
-      <h1>Why I'm excited to learn React!</h1>
-      <ol>
-        <li>It allows me to build cool things</li>
-        <li>It is imparative</li>
-      </ol>
+      <List/>
       <Footer/>
     </div>
   );
