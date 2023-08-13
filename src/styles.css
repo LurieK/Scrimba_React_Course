@@ -9,5 +9,9 @@
   list-style: none;
 }
 
+.nav-bar li {
+  margin-left: 10px;
+}
+
 
 
