@@ -5,9 +5,9 @@ import './styles.css';
 
 function Header(){
   return (
-    <nav>
+    <nav >
       <img alt="logo img" src="React-icon.png" width="40%" />
-      <ul className="nav-bar">
+      <ul className="nav-list">
           <li>Pricing</li>
           <li>About</li>
           <li>Contact</li>
