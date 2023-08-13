@@ -3,7 +3,12 @@
   text-align: center;
 }
 
-.nav-bar {
+.nav-bar{
+  display: flex;
+  flex-flow: row;
+}
+
+.nav-list {
   display: flex;
   flex-flow: row;
   list-style: none;
@@ -12,6 +17,8 @@
 .nav-list li {
   margin-left: 10px;
 }
+
+
 
 
 
