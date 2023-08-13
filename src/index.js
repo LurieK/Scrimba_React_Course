@@ -20,8 +20,8 @@ function Header(){
 function List(){
   return (
     <div>
-    <h1>Why I'm excited to learn React!</h1>
-      <ol>
+    <h1 className="list-header">Why I'm excited to learn React!</h1>
+      <ol className="list">
         <li>It allows me to build cool things</li>
         <li>It is imperative</li>
       </ol>
