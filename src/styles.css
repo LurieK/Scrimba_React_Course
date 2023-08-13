@@ -2,8 +2,16 @@
   font-family: Arial, Helvetica;
   text-align: center;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .full-page {
   font-family: 'Inconsolata', monospace;
+  width:100%;
+
 }
 .react-img {
   width: 75px;
@@ -14,6 +22,9 @@
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 1px 10px 22px -13px #84b2bd6b
+
+  ;
 }
 
 .nav-list {
@@ -23,6 +34,12 @@
   margin-right: 10px;
   font-size: 20px;
  
+}
+
+
+.full-list{
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .nav-list li {
@@ -37,6 +54,12 @@
   margin-left: 30px;
 }
 
+
+footer {
+  margin-top: 15rem;
+  background-color: #60dbfb;
+  width:100%;
+}
 
 
 

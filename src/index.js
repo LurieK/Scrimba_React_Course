@@ -19,7 +19,7 @@ function Header(){
 
 function List(){
   return (
-    <div>
+    <div className="full-list">
     <h1 className="list-header">Why I'm excited to learn React!</h1>
       <ol className="list">
         <li>It allows me to build cool things</li>
@@ -35,7 +35,7 @@ function List(){
 
 function Footer (){
   return (
-    <footer>
+    <footer className="footer">
       <small>© 2023 Kimmerle development. All rights reserved.</small>
   </footer>
 
