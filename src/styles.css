@@ -6,16 +6,20 @@
 .nav-bar{
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
+  
+
 }
 
 .nav-list {
   display: flex;
   flex-flow: row;
   list-style: none;
+  
 }
 
 .nav-list li {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 
