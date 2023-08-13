@@ -44,7 +44,7 @@ function Footer (){
 
 function Page() {
   return (
-    <div>
+    <div className="full-page">
       <Header/>
       <List/>
       <Footer/>
