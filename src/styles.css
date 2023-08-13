@@ -3,7 +3,9 @@
   text-align: center;
 }
 
-
+.react-img {
+  width: 75px;
+}
 
 .nav-bar{
   display: flex;
