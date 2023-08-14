@@ -1,22 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import './styles.css';
+import Header from "./Header"
+import Footer from "./Footer"
+import List from "./List"
 
 function Page() {
   return (
-    <div>
-      <header>
-        <nav>
-          <img alt="logo img" src="React-icon.png" width="40%" />
-        </nav>
-      </header>
-      <h1>Why I'm excited to learn React!</h1>
-      <ol>
-        <li>reason 1</li>
-        <li>reason 2</li>
-      </ol>
-      <footer>
-        <small>© 2023 Kimmerle development. All rights reserved.</small>
-      </footer>
+    <div className="full-page">
+      <Header/>
+      <List/>
+      <Footer/>
     </div>
   );
 }
